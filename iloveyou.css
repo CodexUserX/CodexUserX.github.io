@@ -1,0 +1,15 @@
+body {
+	background-color: #ffcccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+.container {
+	text-align: center;
+	font-size: 50px;
+	color: #ffebd2;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

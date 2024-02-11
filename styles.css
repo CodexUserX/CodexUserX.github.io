@@ -1,0 +1,32 @@
+body {
+	background-color: #ffcccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+button {
+	background-color: #ffebd2;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	margin: 0 10px;
+}
+
+button:hover {
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+	transform: translateY(5px);
+}
